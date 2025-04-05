@@ -4,5 +4,5 @@ Team Name: Hash-Hackers
 
 Members:
 1. Chirag Belani
-
+2. Chinmay Inamdar
 
