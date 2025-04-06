@@ -181,7 +181,7 @@ const QuizAttempt = () => {
                         <button
                             className="px-6 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-600 hover:to-indigo-700 text-white font-medium rounded-lg shadow-lg shadow-cyan-500/20 hover:shadow-cyan-500/40 flex items-center gap-1"
                             onClick={handleNextQuestion}
-                            disabled={isAnswered} // ! is for is the question answered or not
+                            disabled={isAnswered } // !
                         >
                             {currentQuestionIndex === quizData.questions.length - 1 ? "Finish Assessment" : "Next Question"}
                             <ChevronRight className="h-4 w-4" />
